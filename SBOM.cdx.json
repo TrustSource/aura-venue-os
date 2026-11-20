@@ -1,0 +1,41 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:4d4aed57-b245-419b-9129-2dd63911ef79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-20T00:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "aura-venue-os@0.1.0",
+      "name": "aura-venue-os",
+      "version": "0.1.0",
+      "description": "Aura Venue OS (fictional example product by TrustSource)",
+      "licenses": [
+        {
+          "license": {
+            "id": "CC-BY-SA-4.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/trustsource/aura-venue-os"
+        }
+      ]
+    },
+    "supplier": {
+      "name": "TrustSource"
+    }
+  },
+  "components": [],
+  "compositions": [
+    {
+      "aggregate": "complete",
+      "assemblies": [
+        "aura-venue-os@0.1.0"
+      ]
+    }
+  ]
+}
